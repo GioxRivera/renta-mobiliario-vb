@@ -182,6 +182,7 @@ Public Class formClientes
             If validacion = vbYes Then
                 eliminar(txtboxId.Text)
                 llenarTabla()
+                limpiar()
             End If
         End If
     End Sub
